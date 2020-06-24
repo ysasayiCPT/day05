@@ -13,16 +13,6 @@
 #include<stdio.h>
 char *ft_strcpy(char *dest, char *src);
 
-int main()
-{
-	char str1[]="yondela";
-	int size = sizeof(str1)/ sizeof(str1[0]);
-	char str2[size];
-	ft_strcpy(str2, str1);
-	printf("%s", str2);
-
-	return 0;
-}
 char *ft_strcpy(char *dest, char *src)
 {
 	int counter = 0;

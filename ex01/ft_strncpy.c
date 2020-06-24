@@ -14,9 +14,11 @@ char *ft_strncpy(char *dest, char *src, unsigned int n );
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	for (int i = 0; i< n; i++)
+	int i = 0;
+	while(i < n)
 	{
-		dest[i]= src[i];
+		dest[i] = src[i];
+		i++;
 	}
 	return dest;
 }
